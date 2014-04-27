@@ -23,4 +23,4 @@ You can load the package using the command library(data.table).
 source("run_analysis.R")
 
 - The tidy dataset should get created in the current directory as
-**TidyDataset.csv**.
+**tidy_dataset.txt**.

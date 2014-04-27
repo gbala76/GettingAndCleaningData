@@ -42,4 +42,4 @@ library(data.table)
 temp1_tidy <- data.table(Mean_StdDev_Dataset)
 temp2_tidy <- temp1_tidy[,lapply(.SD,mean),by="ActivityDescription,Subject"]
 temp2_tidy<- temp2_tidy[order(tidy_dataset$ActivityDescription,tidy_dataset$Subject),]
-write.csv(temp2_tidy,"TidyDataset.csv")
+write.table(temp2_tidy, "tidy_dataset.txt",sep="\t")

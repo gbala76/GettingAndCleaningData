@@ -47,11 +47,11 @@ the paste function.
 
 **6. Merge the data set, activity and subject information into a
 single data set**
--The data frames are merged using the cbind functon
+- The data frames are merged using the cbind functon
 
 **7. Create a second, independent tidy data set with the average of
 each variable for each activity and each subject**
 - data.table package is used for fast aggregation of large data
 - lapply function is used to get the mean by activity description and subject
 - the result is then sorted by activity description and subject
-- the sorted out is written to the csv file **"TidyDataset.csv"**
+- the sorted out is written to the text file **"tidy_dataset.txt"**
