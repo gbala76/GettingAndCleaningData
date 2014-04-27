@@ -16,7 +16,7 @@ Dataset\" ,
 HAR Dataset\")
 
 - If you do not have the data.table package loaded already, then
-please install the package using the install.packages("data.table).
+please install the package using the install.packages("data.table").
 You can load the package using the command library(data.table).
 
 - Run the script run_analysis.R in Rstudio using the command
